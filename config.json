@@ -1,7 +1,7 @@
 {
-  "first_app": "",
-  "change_calculator": "",
-  "mortgage_calculator": "",
-  "top_spots": "",
-  "vstda": ""
+  "first_app": "http://quiet-inlet-30969.herokuapp.com",
+  "change_calculator": "http://react100-change-calculator.herokuapp.com",
+  "mortgage_calculator": "http://react100-mortgage-calculator.herokuapp.com",
+  "top_spots": "http://react100-san-diego-top-spots.herokuapp.com",
+  "vstda": "http://react100-vstda.herokuapp.com"
 }

@@ -24,6 +24,7 @@ describe('Heroku Workshop', function() {
   this.timeout(6500);
   describe('config file', function() {
     projects.forEach((project) => {
+      console.log(config[project]);
       it(`includes a key called "${project}" with a valid Heroku URL for a value`, () => {
         expect(config[project]).to.exist;
         checkValidHerokuUrl(config[project]);
@@ -33,7 +34,7 @@ describe('Heroku Workshop', function() {
 
   describe('heroku apps', function() {
     projects.forEach((project) => {
-      this.timeout(15000);
+      this.timeout(30000);
       it(`${project} is deployed`, (done) => {
         chai
           .request(config[project])
