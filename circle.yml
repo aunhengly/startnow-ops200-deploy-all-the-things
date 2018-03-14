@@ -1,0 +1,8 @@
+deployment:
+0  prod:
+    branch: master
+    heroku:
+      appname: startnow-ops200-deploy-all-the-things
+machine:
+  node:
+    version: 8.5.
